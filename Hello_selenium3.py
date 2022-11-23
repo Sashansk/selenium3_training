@@ -3,7 +3,9 @@ from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+
 wd = webdriver.Chrome()
+
 
 def test_example(driver):
     driver.get("http://www.google.com/")
